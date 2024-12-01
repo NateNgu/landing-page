@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: #1F2937;
+    height: 50px;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.links {
+    display: flex;
+    gap: 45px;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+.section-2 {
+    background-color: #1F2937;
+    height: 300px;
+}
