@@ -4,6 +4,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 li {
@@ -35,7 +36,6 @@ li {
 }
 
 img {
-  margin-top: 30px 0px;
   flex-shrink: 0;
   width: 300px;
 }
@@ -68,5 +68,5 @@ button {
   background-color: #3882f6;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
 }
