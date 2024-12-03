@@ -64,7 +64,7 @@ img {
   font-size: 18px;
 }
 
-button {
+.button {
   padding: 10px 30px;
   background-color: #3882f6;
   color: white;
@@ -83,7 +83,7 @@ button {
   font-size: 36px;
   font-weight: 900;
   padding-bottom: 46px;
-  color: #1f2937
+  color: #1f2937;
 }
 
 .section-3-img {
@@ -118,7 +118,7 @@ button {
 }
 
 .section-4 {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -142,4 +142,42 @@ button {
   display: flex;
   align-self: flex-end;
   padding-right: 50px;
+}
+
+.section-5 {
+  padding: 150px;
+  height: 250px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.section-5-content {
+  display: flex;
+  gap: 200px;
+  background-color:#3882f6;
+  color: white;
+  padding: 20px 80px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.section-5-content-text {
+  min-width: 250px;
+}
+
+.section-5-content-button {
+  align-self: center;
+}
+
+.section-5-content-button button {
+  background-color: #3882f6;
+  min-width: 130px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 10px 30px;
+  width: 125px;
+  font-weight: bold;
+  font-size: 16px;
 }
